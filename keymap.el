@@ -8,7 +8,7 @@
 ;;(global-set-key (kbd "s-t") 'find-file-in-project)
 (global-set-key (kbd "s-t") 'projectile-find-file)
 (global-set-key (kbd "s-T") 'projectile-ag)
-(global-set-key (kbd "s-w") 'kill-buffer)
+(global-set-key (kbd "s-w") 'kill-this-buffer)
 
 ;; remove windmove stuff
 (global-unset-key (kbd "S-<down>"))
