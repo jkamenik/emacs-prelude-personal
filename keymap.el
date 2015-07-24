@@ -40,4 +40,11 @@
 ;; Note: This is actually ctrl + cmd + f
 (global-set-key (kbd "<C-s-268632070>") 'toggle-frame-fullscreen)
 
+;; make it easier to open my work notes file
+(defun open-work-notes ()
+  "Opens the file ~/Dropbox/org-mode/work.org"
+  (interactive)
+  (find-file "~/Dropbox/org-mode/gtd.org"))
+(global-set-key (kbd "C-c C-w") 'open-work-notes)
+
 (provide 'keymap)
