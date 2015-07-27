@@ -44,7 +44,8 @@
 (defun open-work-notes ()
   "Opens the file ~/Dropbox/org-mode/work.org"
   (interactive)
-  (find-file "~/Dropbox/org-mode/gtd.org"))
+  (find-file org-gtd-file))
 (global-set-key (kbd "C-c C-w") 'open-work-notes)
+(global-set-key (kbd "C-c c") 'org-capture)
 
 (provide 'keymap)
