@@ -10,7 +10,10 @@
 ;; http://orgmode.org/manual/Capture-templates.html#Capture-templates
 (setq org-capture-templates
       '(("t" "Todo" entry (file+headline org-gtd-file "To be filed")
-         "* TODO %?  :WORK:\n- Captured: %T\n%i")
+         "* TODO %?  %^g\n- Captured: %T\n%i")
+        ("r" "Reference" entry (file+headline org-gtd-file "Reference")
+         "* %^{title}
+%?")
         ("c" "Competition" entry (file+headline org-gtd-file "Competition")
          "* %t
 ** Points
