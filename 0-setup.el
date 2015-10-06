@@ -8,6 +8,9 @@
 (setq-default sh-basic-offset 2)
 (setq-default sh-indentation 2)
 
+;; CUA selection
+(cua-selection-mode t)
+
 (setq-default org-gtd-file "~/Dropbox/org-mode/gtd.org")
 
 (provide '0-setup)
