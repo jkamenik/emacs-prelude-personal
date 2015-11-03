@@ -7,6 +7,16 @@
    (quote
     ("~/Dropbox/org-mode/thotcon.org" "~/Dropbox/org-mode/using-orgmode.org")))
  '(org-src-fontify-natively t)
+ '(safe-local-variable-values
+   (quote
+    ((org-todo-keyword-faces
+      ("START" . "yellow")
+      ("WAITING" . "lightblue"))
+     (org-todo-keyword-faces
+      ("START" . "yellow")
+      ("WAITING" . "blue"))
+     (org-todo-keyword-faces
+      ("START" . "yellow")))))
  '(tabbar-separator (quote (0.5))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
