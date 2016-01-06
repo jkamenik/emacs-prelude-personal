@@ -1,6 +1,6 @@
 ;;; Magic - My magic settings
 
-(require 'magit)
+(prelude-require-package 'magit)
 
 (defun endless/visit-pull-request-url ()
   "Visit the current branch's PR on Github."

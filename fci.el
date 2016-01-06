@@ -1,5 +1,5 @@
 ;; FCI - Fill Column Indicator
-(require 'fill-column-indicator)
+(prelude-require-package 'fill-column-indicator)
 
 ;; Add a global mode for Fill Column Indicator
 (define-globalized-minor-mode global-fci-mode fci-mode

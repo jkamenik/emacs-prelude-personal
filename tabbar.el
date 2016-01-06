@@ -1,5 +1,7 @@
 ;;; Tabbar - Setup the tabbar
-(require 'tabbar)
+(prelude-require-package 'tabbar)
+
+(tabbar-mode)
 
 ;; Tabbar settings
 (set-face-attribute

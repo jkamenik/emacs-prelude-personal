@@ -3,7 +3,7 @@
   "bash-completion"
   "BASH completion hook")
 
-(require 'shell-command)
+(prelude-require-package 'shell-command)
 (shell-command-completion-mode)
 
 ;; Make the bash shell a login shell
