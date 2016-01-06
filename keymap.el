@@ -1,5 +1,14 @@
 ;;; Keymap - Provide some nicer keys
 
+;; Better undo redo
+(global-set-key (kbd "s-z") 'undo-tree-undo)
+(global-set-key (kbd "s-Z") 'undo-tree-redo)
+
+;; Better isearch
+(define-key prelude-mode-map (kbd "s-g") nil)
+(global-set-key (kbd "s-g") 'isearch-forward)
+(define-key isearch-mode-map (kbd "s-g") 'isearch-repeat-forward)
+
 ;; Better settings for those used to other editors
 (global-set-key (kbd "s-<right>") 'move-end-of-line)
 (global-set-key (kbd "s-<left>") 'move-beginning-of-line)
