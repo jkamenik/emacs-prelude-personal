@@ -1,5 +1,8 @@
 ;;; Package - install all the packages that I use
 
+(prelude-require-package 'editorconfig)
+(editorconfig-mode 1)
+
 (setq my-packages '(fill-column-indicator
                     shell-command
                     tabbar
