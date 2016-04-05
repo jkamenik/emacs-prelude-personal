@@ -13,4 +13,7 @@
 
 (setq-default org-gtd-file "~/Dropbox/org-mode/gtd.org")
 
+;; Open dired on project switch
+(setq projectile-switch-project-action 'projectile-dired)
+
 (provide '0-setup)
