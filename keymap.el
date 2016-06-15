@@ -57,4 +57,8 @@
 (global-set-key (kbd "C-c C-w") 'open-work-notes)
 (global-set-key (kbd "C-c c") 'org-capture)
 
+;; Origami code folding
+(global-set-key (kbd "M-<tab>") 'origami-recursively-toggle-node)
+(global-set-key (kbd "M-S-<tab>") 'origami-toggle-all-nodes)
+
 (provide 'keymap)
