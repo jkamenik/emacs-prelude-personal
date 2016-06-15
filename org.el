@@ -5,6 +5,7 @@
             (prelude-mode -1)))
 
 (setq org-default-notes-file org-gtd-file)
+(setq org-src-fontify-natively t)
 
 ;; Setup capture templates for quick setup
 ;; http://orgmode.org/manual/Capture-templates.html#Capture-templates
